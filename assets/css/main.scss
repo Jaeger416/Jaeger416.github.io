@@ -134,22 +134,3 @@ h1:before, .anchor:before {
     font-weight: bold;
     font-size: 0.9em
 }
-
-.github-star-tag {
-    background-color: #24292f;
-    color: #f6e58d;
-    padding: 1px 8px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 0.9em;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3em;
-    text-decoration: none;
-}
-
-.github-star-tag:hover,
-.github-star-tag:focus {
-    background-color: #1b1f23;
-    color: #fff3a3;
-}

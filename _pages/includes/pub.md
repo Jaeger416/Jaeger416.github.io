@@ -1,7 +1,7 @@
 # 📝 Publications
 
 ## selected publications
-- <span class="preprint-tag">Arxiv 2025</span> [LoFA: Learning to Predict Personalized Priors for Fast Adaptation of Visual Generative Models](https://arxiv.org/abs/2512.08785) · [Project](https://jaeger416.github.io/lofa) · [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a><br>
+- <span class="conference-tag">CVPR 2026</span> [LoFA: Learning to Predict Personalized Priors for Fast Adaptation of Visual Generative Models](https://arxiv.org/abs/2512.08785) · [Project](https://jaeger416.github.io/lofa) · [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a><br>
 **Yiming Hao**\*, Mutian Xu\*, Chongjie Ye, Jie Qin, Shunlin Lu, Yipeng Qin, Xiaoguang Han.
 
 - <span class="conference-tag">CVPR 2025</span> [TASTE-Rob: Advancing Video Generation of Task-oriented Hand-Object Interaction for Generalizable Robotic Manipulation](https://arxiv.org/abs/2503.11423) · [Website](https://taste-rob.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/TASTE-Rob on GitHub">Star</a><br>

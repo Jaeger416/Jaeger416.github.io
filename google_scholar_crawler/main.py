@@ -30,7 +30,10 @@ def crawl():
     except Exception as e:
         print(f'::warning::Could not set up proxy, trying direct: {e}', file=sys.stderr)
 
-    author = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+    # The Scholar ID is public (it's in the site config / profile URL), so fall
+    # back to it when the GOOGLE_SCHOLAR_ID secret isn't set, rather than crashing.
+    scholar_id = os.environ.get('GOOGLE_SCHOLAR_ID') or 'mlu1Oo4AAAAJ'
+    author = scholarly.search_author_id(scholar_id)
     scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
     return author
 

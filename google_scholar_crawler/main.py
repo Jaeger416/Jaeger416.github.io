@@ -27,6 +27,8 @@ def crawl():
         pg = ProxyGenerator()
         if pg.FreeProxies():
             scholarly.use_proxy(pg)
+    except TimeoutError:
+        raise  # let the wall-clock timeout abort cleanly, don't swallow it
     except Exception as e:
         print(f'::warning::Could not set up proxy, trying direct: {e}', file=sys.stderr)
 

@@ -1,6 +1,9 @@
 # 📝 Publications
 
 ## selected publications
+- <span class="report-tag">Tech Report 2026</span> [Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation](https://arxiv.org/abs/2604.02289)<br>
+Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xiaoguang Han.
+
 - <span class="conference-tag">CVPR 2026</span> [LoFA: Learning to Predict Personalized Priors for Fast Adaptation of Visual Generative Models](https://arxiv.org/abs/2512.08785) · [Project](https://jaeger416.github.io/lofa) · [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a><br>
 **Yiming Hao**\*, Mutian Xu\*, Chongjie Ye, Jie Qin, Shunlin Lu, Yipeng Qin, Xiaoguang Han.
 
@@ -15,9 +18,6 @@ Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, H
 
 
 ## other publications
-
-- <span class="report-tag">Tech Report 2026</span> [Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation](https://arxiv.org/abs/2604.02289)<br>
-Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xiaoguang Han.
 
 - <span class="preprint-tag">Arxiv 2025</span> [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)<br>
 Yidan Zhang, Mutian Xu, **Yiming Hao**, Kun Zhou, Jiahao Chang, Xiaoqiang Liu, Pengfei Wan, Hongbo Fu, Xiaoguang Han.

@@ -147,8 +147,8 @@ h1:before, .anchor:before {
 /* Scrollable News list: locks the visible height to roughly the current
    entries so adding new ones produces a scrollbar instead of growing the page. */
 .news-scroll {
-    max-height: 15em;
-    overflow-y: auto;
+    max-height: 9em;
+    overflow-y: scroll;
     padding-right: 10px;
 }
 

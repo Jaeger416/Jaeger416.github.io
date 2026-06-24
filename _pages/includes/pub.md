@@ -22,7 +22,7 @@ Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, H
 - <span class="preprint-tag">Arxiv 2025</span> [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)<br>
 Yidan Zhang, Mutian Xu, **Yiming Hao**, Kun Zhou, Jiahao Chang, Xiaoqiang Liu, Pengfei Wan, Hongbo Fu, Xiaoguang Han.
 
-- <span class="preprint-tag">Arxiv 2025</span> [IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)<br>
+- <span class="conference-tag">TMM 2026</span> [IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)<br>
 Xiaokang Wei, Zizheng Yan, Zhangyang Xiong, **Yiming Hao**, Yipeng Qin, Xiaoguang Han.
 
 - <span class="preprint-tag">Arxiv 2023</span> [Perception Imitation: Towards Synthesis-free Simulator for Autonomous Vehicles](https://arxiv.org/abs/2304.09365)<br>

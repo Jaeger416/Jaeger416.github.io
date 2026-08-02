@@ -19,7 +19,7 @@ Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, H
 
 ## other publications
 
-- <span class="preprint-tag">Arxiv 2025</span> [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)<br>
+- <span class="conference-tag">ACM MM 2026</span> [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)<br>
 Yidan Zhang, Mutian Xu, **Yiming Hao**, Kun Zhou, Jiahao Chang, Xiaoqiang Liu, Pengfei Wan, Hongbo Fu, Xiaoguang Han.
 
 - <span class="conference-tag">TMM 2026</span> [IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)<br>

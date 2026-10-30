@@ -183,10 +183,43 @@
     }
     .publication-authors { color: var(--home-muted); font-size: 13px; line-height: 1.7; margin-bottom: 8px; }
     .publication-authors strong { color: var(--home-ink); font-weight: 600; }
-    .publication-links { font-size: 12px; font-weight: 500; }
-    .publication-links a { text-decoration: none; }
-    .publication-links a:hover { text-decoration: underline; }
-    iframe { vertical-align: middle; }
+    .publication-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1;
+    }
+    .publication-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid #cbdcd6;
+      border-radius: 5px;
+      background: #f1f6f3;
+      color: #2d6259;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .publication-links a:hover {
+      background: #e3eee8;
+      border-color: #9bbdaf;
+      color: #204c43;
+      text-decoration: none;
+    }
+    // The GitHub widget uses a shadow-root host. Align its wrapper, since
+    // iframe styles cannot control the widget's inline baseline.
+    .publication-stars,
+    .publication-stars > span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      line-height: 0;
+    }
     p:has(> .conference-tag), p:has(> .preprint-tag), p:has(> .report-tag) { margin-bottom: 0; }
   }
   .publication-details { min-width: 0; }
@@ -210,6 +243,7 @@
     }
   }
   .page__content .publication-thumbnail:hover img { box-shadow: none; }
+  .publication-thumbnail.publication-thumbnail--portrait { aspect-ratio: 3 / 4; }
   .publication-thumbnail:hover { border-color: #9cbbbb; }
   .conference-tag, .preprint-tag, .report-tag {
     display: inline-block;

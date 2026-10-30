@@ -7,10 +7,10 @@
 
 <article class="publication" markdown="1">
 
-<!-- Omni123 logo: https://arxiv.org/html/2604.02289v1 -->
+<!-- Omni123 teaser (Figure 2): https://arxiv.org/html/2604.02289v1 -->
 <div class="publication-visual">
-<a class="publication-thumbnail" href="https://arxiv.org/abs/2604.02289">
-  <img src="{{ '/images/img/publication_preview/omni123.png' | relative_url }}" alt="Omni123 project logo" width="2108" height="636" loading="lazy" decoding="async">
+<a class="publication-thumbnail publication-thumbnail--portrait" href="https://arxiv.org/abs/2604.02289">
+  <img src="{{ '/images/img/publication_preview/omni123-teaser.jpg' | relative_url }}" alt="Omni123 teaser: joint 2D and 3D generation and instruction-based 3D editing" width="1200" height="1600" loading="lazy" decoding="async">
 </a>
 </div>
 
@@ -33,8 +33,9 @@ Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xia
 <article class="publication" markdown="1">
 
 <div class="publication-visual">
+<!-- Teaser source: https://jaeger416.github.io/lofa/ -->
 <a class="publication-thumbnail" href="https://arxiv.org/abs/2512.08785">
-  <img src="{{ '/images/img/publication_preview/lofa.jpg' | relative_url }}" alt="LoFA: fast prediction of personalized priors" width="898" height="516" loading="lazy" decoding="async">
+  <img src="{{ '/images/img/publication_preview/lofa-teaser.jpg' | relative_url }}" alt="LoFA teaser: personalized video and image generation compared with conventional LoRA training" width="1600" height="590" loading="lazy" decoding="async">
 </a>
 </div>
 
@@ -47,7 +48,7 @@ Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xia
 **Yiming Hao**\*, Mutian Xu\*, Chongjie Ye, Jie Qin, Shunlin Lu, Yipeng Qin, Xiaoguang Han.
 {: .publication-authors }
 
-[Paper](https://arxiv.org/abs/2512.08785) · [Project](https://jaeger416.github.io/lofa) · [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a>
+[Paper](https://arxiv.org/abs/2512.08785) [Project](https://jaeger416.github.io/lofa) [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) <span class="publication-stars"><a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" data-size="large" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a></span>
 {: .publication-links }
 
 </div>
@@ -71,7 +72,7 @@ Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xia
 Hongxiang Zhao, Xingchen Liu, Mutian Xu, **Yiming Hao**, Weikai Chen, Xiaoguang Han.
 {: .publication-authors }
 
-[Paper](https://arxiv.org/abs/2503.11423) · [Website](https://taste-rob.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/TASTE-Rob on GitHub">Star</a>
+[Paper](https://arxiv.org/abs/2503.11423) [Website](https://taste-rob.github.io/) [Code](https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob) <span class="publication-stars"><a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob" data-icon="octicon-star" data-show-count="true" data-size="large" aria-label="Star GAP-LAB-CUHK-SZ/TASTE-Rob on GitHub">Star</a></span>
 {: .publication-links }
 
 </div>
@@ -119,7 +120,7 @@ Xiaoshi Wu\*, **Yiming Hao**\*, Manyuan Zhang, Keqiang Sun, Zhaoyang Huang, Guan
 Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, Hongsheng Li.
 {: .publication-authors }
 
-[Paper](https://arxiv.org/abs/2306.09341) · [Code](https://github.com/tgxs002/HPSv2) · <a class="github-button" href="https://github.com/tgxs002/HPSv2" data-icon="octicon-star" data-show-count="true" aria-label="Star tgxs002/HPSv2 on GitHub">Star</a>
+[Paper](https://arxiv.org/abs/2306.09341) [Code](https://github.com/tgxs002/HPSv2) <span class="publication-stars"><a class="github-button" href="https://github.com/tgxs002/HPSv2" data-icon="octicon-star" data-show-count="true" data-size="large" aria-label="Star tgxs002/HPSv2 on GitHub">Star</a></span>
 {: .publication-links }
 
 </div>
@@ -147,7 +148,7 @@ Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, H
 Hongxiang Zhao, Mutian Xu, Zeyu Jin, **Yiming Hao**, Shuguang Cui, Xiaoguang Han.
 {: .publication-authors }
 
-[Paper](https://arxiv.org/abs/2609.07498) · [Project](https://cosmoh2g.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/CosmoH2G on GitHub">Star</a>
+[Paper](https://arxiv.org/abs/2609.07498) [Project](https://cosmoh2g.github.io/) [Code](https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G) <span class="publication-stars"><a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G" data-icon="octicon-star" data-show-count="true" data-size="large" aria-label="Star GAP-LAB-CUHK-SZ/CosmoH2G on GitHub">Star</a></span>
 {: .publication-links }
 
 </div>

@@ -19,6 +19,9 @@ Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, H
 
 ## other publications
 
+- <span class="conference-tag">SIGGRAPH Asia 2026</span> [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498) · [Project](https://cosmoh2g.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/CosmoH2G on GitHub">Star</a><br>
+Hongxiang Zhao, Mutian Xu, Zeyu Jin, **Yiming Hao**, Shuguang Cui, Xiaoguang Han.
+
 - <span class="conference-tag">ACM MM 2026</span> [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)<br>
 Yidan Zhang, Mutian Xu, **Yiming Hao**, Kun Zhou, Jiahao Chang, Xiaoqiang Liu, Pengfei Wan, Hongbo Fu, Xiaoguang Han.
 

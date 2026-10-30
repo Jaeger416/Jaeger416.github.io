@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Yiming Hao"
-description              : ""
+description              : "Yiming Hao's academic homepage: multimodal generation research, publications, and experience."
+url                      : "https://jaeger416.github.io"
+baseurl                  : ""
 repository               : "Jaeger416/jaeger416.github.io"
 
 # google analytics
@@ -22,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yiming Hao"
   avatar           : "images/avatar1.jpg"
-  bio              : "Ph.D. student in Gap Lab, CUHK(SZ)"
+  bio              : "Ph.D. student in GAP Lab, CUHK(SZ)"
   location         : "Shenzhen, Guangdong, China"
   employer         :
   pubmed           : 
@@ -65,6 +67,7 @@ include:
   - files
 exclude:
   - docs
+  - _pages/includes
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -151,11 +154,3 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development

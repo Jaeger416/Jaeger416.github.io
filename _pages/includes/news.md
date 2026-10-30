@@ -1,6 +1,7 @@
 # 🔥 News
 
 <div class="news-scroll" markdown="1">
+- *2026.07.19*: 🎉 One paper ([CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498)) is accepted by SIGGRAPH Asia 2026.
 - *2026.07*: 🎉 One paper ([VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)) is accepted by ACM MM 2026.
 - *2026.06*: 🎉 One paper ([IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)) is accepted by TMM 2026.
 - *2026.04*: 📄 Release the technical report of [Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation](https://arxiv.org/abs/2604.02289).

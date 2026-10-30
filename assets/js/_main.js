@@ -27,7 +27,7 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 925 : !$(".author__urls-wrapper button").is(":visible");
+    var show = $(".author__urls-wrapper button").length === 0 ? window.matchMedia("(min-width: 925px)").matches : !$(".author__urls-wrapper button").is(":visible");
     // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
     // console.log("Window Width: " + windowWidth);
     // console.log("show: " + show);
@@ -57,8 +57,8 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  // The homepage uses native anchors with scroll-margin-top for its sticky header.
+  $("body:not(.academic-home) a").smoothScroll({offset: -20});
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

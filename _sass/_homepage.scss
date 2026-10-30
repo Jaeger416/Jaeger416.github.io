@@ -1,0 +1,248 @@
+/* Homepage palette and layout. System fonts keep the page fast and independent
+   of third-party font services. Other pages retain the base theme. */
+.academic-home {
+  --home-ink: #243a3b;
+  --home-muted: #596b70;
+  --home-accent: #236e73;
+  --home-border: #dfe6e3;
+  background: #f4f5f1;
+  color: #35444c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+
+  a { color: var(--home-accent); }
+  a:hover { color: #164d52; }
+  a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+    outline: 2px solid var(--home-accent);
+    outline-offset: 4px;
+    border-radius: 3px;
+  }
+
+  .masthead {
+    background: rgba(250, 251, 248, 0.96);
+    border-color: var(--home-border);
+    animation: none;
+    backdrop-filter: blur(12px);
+  }
+  .masthead__inner-wrap {
+    max-width: 1200px;
+    padding: 12px 24px;
+    font-family: inherit;
+  }
+  .greedy-nav {
+    background: transparent;
+    a { color: var(--home-muted); font-size: 14px; }
+    .visible-links a:before { height: 2px; background: var(--home-accent); }
+    button { background: var(--home-accent); border-radius: 8px; }
+    .hidden-links { border-radius: 12px; box-shadow: 0 8px 24px rgba(36, 58, 59, 0.1); }
+  }
+  .masthead__menu-item--lg a { color: var(--home-ink); font-size: 17px; letter-spacing: -0.03em; }
+
+  #main {
+    max-width: 1200px;
+    margin: 32px auto 64px;
+    padding: 0 24px;
+    animation: none;
+  }
+  .page { min-width: 0; }
+  .sidebar {
+    padding: 24px;
+    margin-bottom: 24px;
+    background: #fffefa;
+    border: 1px solid var(--home-border);
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(36, 58, 59, 0.025);
+  }
+  .sidebar p, .sidebar li, .sidebar .author__urls-wrapper { font-family: inherit; }
+  .sidebar .author__name {
+    color: var(--home-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+  .author__name:before { display: none; }
+  .author__avatar img { border: 0; padding: 0; }
+  .author__bio { color: var(--home-muted); font-size: 14px; line-height: 1.6; }
+  .author__urls { font-size: 13px; z-index: auto; }
+  .author__urls li { white-space: normal; }
+  .author__urls a { padding: 5px 0; }
+  .author__urls i { margin-right: 4px; color: var(--home-accent); }
+  .author__urls_sm { color: var(--home-accent); }
+
+  .home-panel {
+    margin-bottom: 22px;
+    padding: 28px 32px;
+    border: 1px solid var(--home-border);
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(36, 58, 59, 0.025);
+  }
+  .about-panel { background: #fffefa; }
+  .news-panel { background: #eef4fa; border-color: #dce6f0; }
+  .experience-panel { background: #edf5ef; border-color: #dae7dd; }
+  .publications-panel { background: #fff; }
+
+  .page__content {
+    #about-me { margin-top: 0; }
+    #about-me:before { display: none; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 18px;
+      padding: 0;
+      border: 0;
+      color: var(--home-ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      font-weight: 500;
+      letter-spacing: -0.025em;
+      scroll-margin-top: 88px;
+    }
+    .section-title:after {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: #a7c8c6;
+    }
+    a { text-decoration-color: #b5cdcd; text-underline-offset: 3px; }
+    a:hover { text-decoration-color: currentColor; }
+    p { margin-bottom: 14px; }
+    p:last-child { margin-bottom: 0; }
+    .research-focus { color: var(--home-ink); font-size: 17px; }
+    .contact-note { color: var(--home-muted); font-size: 14px; }
+  }
+
+  .news-scroll {
+    max-height: 9em;
+    padding-right: 12px;
+    scrollbar-width: thin;
+    scrollbar-color: #aebfce transparent;
+    overscroll-behavior-y: contain;
+    ul { padding-left: 18px; }
+    li { margin-bottom: 10px; padding-left: 4px; font-size: 14px; line-height: 1.65; }
+    li:last-child { margin-bottom: 0; }
+    li::marker { color: #7f9bb1; font-size: 0.75em; }
+    em { font-style: normal; font-weight: 600; color: #455e75; font-variant-numeric: tabular-nums; }
+    a { color: #335d86; }
+  }
+
+  .experience-entry {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+  }
+  .experience-logo { width: 64px; height: 64px; object-fit: contain; }
+  .page__content .experience-company {
+    margin: 0 0 2px;
+    font-family: inherit;
+    font-size: 19px;
+    a { color: var(--home-ink); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  }
+  .page__content .experience-role { margin: 0; font-size: 15px; }
+  .page__content .experience-dates {
+    margin: 0;
+    color: #4b6857;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .page__content .publication-group-title {
+    margin: 30px 0 6px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--home-muted);
+  }
+  .publication-group-title:first-of-type { margin-top: 4px; }
+  .publication {
+    padding: 20px 0;
+    border-bottom: 1px solid #e8edeb;
+    &:last-child { border-bottom: 0; padding-bottom: 0; }
+    h4 {
+      margin: 8px 0;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+      a { color: var(--home-ink); text-decoration: none; }
+      a:hover { color: var(--home-accent); text-decoration: underline; }
+    }
+    .publication-authors { color: var(--home-muted); font-size: 13px; line-height: 1.7; margin-bottom: 8px; }
+    .publication-authors strong { color: var(--home-ink); font-weight: 600; }
+    .publication-links { font-size: 12px; font-weight: 500; }
+    .publication-links a { text-decoration: none; }
+    .publication-links a:hover { text-decoration: underline; }
+    iframe { vertical-align: middle; }
+    p:has(> .conference-tag), p:has(> .preprint-tag), p:has(> .report-tag) { margin-bottom: 0; }
+  }
+  .conference-tag, .preprint-tag, .report-tag {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.015em;
+  }
+  .conference-tag { color: #595084; background: #eeebf8; }
+  .preprint-tag { color: #825a2c; background: #fbf0df; }
+  .report-tag { color: #34685c; background: #e5f1eb; }
+
+  @media (min-width: 925px) {
+    #main { display: grid; grid-template-columns: 224px minmax(0, 1fr); gap: 28px; align-items: start; }
+    #main:before, #main:after { display: none; }
+    .page, .sidebar { float: none; width: auto; margin-right: 0; }
+    .page { padding: 0; }
+    .sidebar { position: sticky; top: 92px; }
+    .author__avatar { width: 100%; }
+    .author__avatar img { display: block; width: 138px; min-width: 0; margin: 0 auto 22px; }
+    .author__content { min-width: 0; }
+    .author__name { margin: 0 0 10px; }
+    .author__bio { margin: 0 0 20px; }
+    .author__urls-wrapper { padding-top: 16px; border-top: 1px solid var(--home-border); }
+  }
+
+  @media (max-width: 924px) {
+    #main { max-width: 820px; margin-top: 22px; }
+    .profile_box { flex-wrap: wrap; gap: 0 18px; }
+    .author__avatar { flex: 0 0 76px; }
+    .author__avatar img { display: block; width: 76px; min-width: 0; }
+    .author__content { padding: 0; flex: 1; }
+    .sidebar .author__name { font-size: 26px; margin-bottom: 6px; }
+    .author__bio { margin: 0; }
+    .author__urls-wrapper { flex-basis: 100%; margin: 10px 0 0 94px; }
+    .author__urls_sm { padding: 0; display: flex; gap: 10px; font-size: 22px; }
+    .author__urls_sm a { display: inline-flex; padding: 4px; }
+  }
+
+  @media (max-width: 600px) {
+    #main { padding: 0 14px; margin-top: 16px; }
+    .masthead__inner-wrap { padding: 10px 14px; }
+    .greedy-nav a { margin: 0 10px; font-size: 13px; }
+    .sidebar { padding: 20px; border-radius: 14px; margin-bottom: 16px; }
+    .home-panel { padding: 22px 20px; border-radius: 14px; margin-bottom: 16px; }
+    .page__content .section-title { font-size: 25px; margin-bottom: 16px; }
+    .page__content .research-focus { font-size: 16px; }
+    .experience-entry { grid-template-columns: 52px minmax(0, 1fr); gap: 4px 14px; }
+    .experience-logo { width: 52px; height: 52px; grid-row: span 2; }
+    .experience-dates { grid-column: 2; }
+    .publication h4 { font-size: 15px; }
+  }
+
+  @media print {
+    background: #fff;
+    .sidebar { position: static; }
+    .home-panel { background: #fff; box-shadow: none; }
+    .news-scroll { max-height: none; overflow: visible; }
+    .experience-entry, .publication { break-inside: avoid; }
+  }
+}

@@ -1,34 +1,139 @@
-# 📝 Publications
+<section class="home-panel publications-panel" aria-labelledby="-publications" markdown="1">
 
-## selected publications
-- <span class="report-tag">Tech Report 2026</span> [Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation](https://arxiv.org/abs/2604.02289)<br>
+<h2 id="-publications" class="section-title">Publications</h2>
+
+### Selected publications
+{: .publication-group-title }
+
+<article class="publication" markdown="1">
+
+<span class="report-tag">Tech Report 2026</span>
+
+#### [Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation](https://arxiv.org/abs/2604.02289)
+
 Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xiaoguang Han.
+{: .publication-authors }
 
-- <span class="conference-tag">CVPR 2026</span> [LoFA: Learning to Predict Personalized Priors for Fast Adaptation of Visual Generative Models](https://arxiv.org/abs/2512.08785) · [Project](https://jaeger416.github.io/lofa) · [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a><br>
+[Paper](https://arxiv.org/abs/2604.02289)
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="conference-tag">CVPR 2026</span>
+
+#### [LoFA: Learning to Predict Personalized Priors for Fast Adaptation of Visual Generative Models](https://arxiv.org/abs/2512.08785)
+
 **Yiming Hao**\*, Mutian Xu\*, Chongjie Ye, Jie Qin, Shunlin Lu, Yipeng Qin, Xiaoguang Han.
+{: .publication-authors }
 
-- <span class="conference-tag">CVPR 2025</span> [TASTE-Rob: Advancing Video Generation of Task-oriented Hand-Object Interaction for Generalizable Robotic Manipulation](https://arxiv.org/abs/2503.11423) · [Website](https://taste-rob.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/TASTE-Rob on GitHub">Star</a><br>
+[Paper](https://arxiv.org/abs/2512.08785) · [Project](https://jaeger416.github.io/lofa) · [Code](https://github.com/GAP-LAB-CUHK-SZ/LoFA) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/LoFA" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/LoFA on GitHub">Star</a>
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="conference-tag">CVPR 2025</span>
+
+#### [TASTE-Rob: Advancing Video Generation of Task-oriented Hand-Object Interaction for Generalizable Robotic Manipulation](https://arxiv.org/abs/2503.11423)
+
 Hongxiang Zhao, Xingchen Liu, Mutian Xu, **Yiming Hao**, Weikai Chen, Xiaoguang Han.
+{: .publication-authors }
 
-- <span class="conference-tag">ECCV 2024</span> [Deep Reward Supervisions for Tuning Text-to-Image Diffusion Models](https://arxiv.org/abs/2403.17239)<br>
+[Paper](https://arxiv.org/abs/2503.11423) · [Website](https://taste-rob.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/TASTE-Rob" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/TASTE-Rob on GitHub">Star</a>
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="conference-tag">ECCV 2024</span>
+
+#### [Deep Reward Supervisions for Tuning Text-to-Image Diffusion Models](https://arxiv.org/abs/2403.17239)
+
 Xiaoshi Wu\*, **Yiming Hao**\*, Manyuan Zhang, Keqiang Sun, Zhaoyang Huang, Guanglu Song, Yu Liu, Hongsheng Li.
+{: .publication-authors }
 
-- <span class="preprint-tag">Arxiv 2023</span> [Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis](https://arxiv.org/abs/2306.09341) · [Code](https://github.com/tgxs002/HPSv2) · <a class="github-button" href="https://github.com/tgxs002/HPSv2" data-icon="octicon-star" data-show-count="true" aria-label="Star tgxs002/HPSv2 on GitHub">Star</a><br>
+[Paper](https://arxiv.org/abs/2403.17239)
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="preprint-tag">Arxiv 2023</span>
+
+#### [Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis](https://arxiv.org/abs/2306.09341)
+
 Xiaoshi Wu\*, **Yiming Hao**\*, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, Hongsheng Li.
+{: .publication-authors }
 
+[Paper](https://arxiv.org/abs/2306.09341) · [Code](https://github.com/tgxs002/HPSv2) · <a class="github-button" href="https://github.com/tgxs002/HPSv2" data-icon="octicon-star" data-show-count="true" aria-label="Star tgxs002/HPSv2 on GitHub">Star</a>
+{: .publication-links }
 
-## other publications
+</article>
 
-- <span class="conference-tag">SIGGRAPH Asia 2026</span> [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498) · [Project](https://cosmoh2g.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/CosmoH2G on GitHub">Star</a><br>
+### Other publications
+{: .publication-group-title }
+
+<article class="publication" markdown="1">
+
+<span class="conference-tag">SIGGRAPH Asia 2026</span>
+
+#### [CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498)
+
 Hongxiang Zhao, Mutian Xu, Zeyu Jin, **Yiming Hao**, Shuguang Cui, Xiaoguang Han.
+{: .publication-authors }
 
-- <span class="conference-tag">ACM MM 2026</span> [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)<br>
+[Paper](https://arxiv.org/abs/2609.07498) · [Project](https://cosmoh2g.github.io/) · [Code](https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G) · <a class="github-button" href="https://github.com/GAP-LAB-CUHK-SZ/CosmoH2G" data-icon="octicon-star" data-show-count="true" aria-label="Star GAP-LAB-CUHK-SZ/CosmoH2G on GitHub">Star</a>
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="conference-tag">ACM MM 2026</span>
+
+#### [VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)
+
 Yidan Zhang, Mutian Xu, **Yiming Hao**, Kun Zhou, Jiahao Chang, Xiaoqiang Liu, Pengfei Wan, Hongbo Fu, Xiaoguang Han.
+{: .publication-authors }
 
-- <span class="conference-tag">TMM 2026</span> [IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)<br>
+[Paper](https://arxiv.org/abs/2509.21291)
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="conference-tag">TMM 2026</span>
+
+#### [IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)
+
 Xiaokang Wei, Zizheng Yan, Zhangyang Xiong, **Yiming Hao**, Yipeng Qin, Xiaoguang Han.
+{: .publication-authors }
 
-- <span class="preprint-tag">Arxiv 2023</span> [Perception Imitation: Towards Synthesis-free Simulator for Autonomous Vehicles](https://arxiv.org/abs/2304.09365)<br>
+[Paper](https://arxiv.org/abs/2509.00777)
+{: .publication-links }
+
+</article>
+
+<article class="publication" markdown="1">
+
+<span class="preprint-tag">Arxiv 2023</span>
+
+#### [Perception Imitation: Towards Synthesis-free Simulator for Autonomous Vehicles](https://arxiv.org/abs/2304.09365)
+
 Xiaoliang Ju, Yiyang Sun, **Yiming Hao**, Yikang Li, Yu Qiao, Hongsheng Li.
+{: .publication-authors }
+
+[Paper](https://arxiv.org/abs/2304.09365)
+{: .publication-links }
+
+</article>
+
+</section>
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>

@@ -1,6 +1,7 @@
-# 🔥 News
+<section class="home-panel news-panel" aria-labelledby="-news" markdown="1">
+<h2 id="-news" class="section-title">News</h2>
 
-<div class="news-scroll" markdown="1">
+<div class="news-scroll" tabindex="0" role="region" aria-label="Latest news; scroll for older updates" markdown="1">
 - *2026.07.19*: 🎉 One paper ([CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements](https://arxiv.org/abs/2609.07498)) is accepted by SIGGRAPH Asia 2026.
 - *2026.07*: 🎉 One paper ([VC-Agent: An Interactive Agent for Customized Video Dataset Collection](https://arxiv.org/abs/2509.21291)) is accepted by ACM MM 2026.
 - *2026.06*: 🎉 One paper ([IntrinsicReal: Adapting IntrinsicAnything from Synthetic to Real Objects](https://arxiv.org/abs/2509.00777)) is accepted by TMM 2026.
@@ -9,3 +10,4 @@
 - *2025.12*: 🔥 Release [🎩 LoFA: Learning to Predict Personalized Priors for Fast Adaptation of Visual Generative Models](https://arxiv.org/abs/2512.08785), a general framework that predicts personalized priors for fast adaptation of visual generative models.
 - *2024.07*: 🎉 One paper ([Deep Reward Supervisions for Tuning Text-to-Image Diffusion Models](https://arxiv.org/abs/2403.17239)) is accepted by ECCV 2024.
 </div>
+</section>

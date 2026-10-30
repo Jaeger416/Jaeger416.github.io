@@ -9,7 +9,7 @@
 
 <!-- Omni123 teaser (Figure 2): https://arxiv.org/html/2604.02289v1 -->
 <div class="publication-visual">
-<a class="publication-thumbnail publication-thumbnail--portrait" href="https://arxiv.org/abs/2604.02289">
+<a class="publication-thumbnail" href="https://arxiv.org/abs/2604.02289">
   <img src="{{ '/images/img/publication_preview/omni123-teaser.jpg' | relative_url }}" alt="Omni123 teaser: joint 2D and 3D generation and instruction-based 3D editing" width="1200" height="1600" loading="lazy" decoding="async">
 </a>
 </div>

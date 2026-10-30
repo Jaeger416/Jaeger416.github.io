@@ -17,9 +17,16 @@
     syncExpanded();
   }
 
+  function refreshLayout() {
+    window.updateNav();
+    syncExpanded();
+  }
+
   // The bundled priority navigation moves links and toggles the overflow list.
   button.addEventListener('click', syncExpanded);
   window.addEventListener('resize', syncExpanded);
+  window.addEventListener('load', refreshLayout);
+  if (document.fonts) document.fonts.ready.then(refreshLayout);
   nav.addEventListener('click', function (event) {
     if (event.target.closest('a')) closeMenu();
   });

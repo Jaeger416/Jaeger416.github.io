@@ -13,17 +13,7 @@ redirect_from:
 ## About me
 {: #about-me .section-title }
 
-I'm a first-year Ph.D. student in <a href="https://gaplab.cuhk.edu.cn/">GAP Lab</a>, CUHK(SZ), supervised by <a href="https://scholar.google.com/citations?user=z-rqsR4AAAAJ&hl=zh-CN">Prof. Xiaoguang Han</a>.
-
-My research focuses on **3D and multimodal generation**, with the goal of integrating diverse modalities to build realistic virtual worlds.
-{: .research-focus }
-
-Previously, I worked on **video and image generation** as a Research Intern at CUHK, supervised by <a href="https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=zh-CN">Prof. Hongsheng Li</a>.
-
-I received my bachelor's degree from Tongji University.
-
-Feel free to [email me](mailto:haoym1016@gmail.com) about research collaborations or questions.
-{: .contact-note }
+I'm a first-year Ph.D. student in <a href="https://gaplab.cuhk.edu.cn/">GAP Lab</a>, CUHK(SZ), supervised by <a href="https://scholar.google.com/citations?user=z-rqsR4AAAAJ&hl=zh-CN">Prof. Xiaoguang Han</a>. My research focuses on **3D and multimodal generation**, with the goal of integrating diverse modalities to build realistic virtual worlds. Previously, I worked on **video and image generation** as a Research Intern at CUHK, supervised by <a href="https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=zh-CN">Prof. Hongsheng Li</a>. I received my bachelor's degree from Tongji University. Feel free to [email me](mailto:haoym1016@gmail.com) about research collaborations or questions.
 </section>
 
 {% include_relative includes/news.md %}

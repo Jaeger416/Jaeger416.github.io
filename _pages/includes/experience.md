@@ -13,9 +13,12 @@
 </div>
 
 <div class="experience-entry">
-  <span class="experience-logo experience-monogram" aria-hidden="true">鹿</span>
+  <!-- Avolution AI brand asset used in Fu-Yun Wang's experience section: https://g-u-n.github.io/assets/images/avolution_logo.png -->
+  <span class="experience-logo experience-logo--avolution">
+    <img src="{{ '/images/avolution-logo.png' | relative_url }}" alt="Avolution AI logo" width="512" height="512" loading="lazy">
+  </span>
   <div class="experience-details">
-    <h3 class="experience-company">Avolution <span class="experience-company-local">(鹿影科技)</span></h3>
+    <h3 class="experience-company">Avolution AI</h3>
     <p class="experience-role">Video Gen Algorithm Intern</p>
   </div>
   <p class="experience-dates"><time datetime="2024-03">Mar 2024</time> – <time datetime="2024-10">Oct 2024</time></p>

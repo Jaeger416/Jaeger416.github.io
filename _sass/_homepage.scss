@@ -143,16 +143,21 @@
     border-top: 1px solid #d6e4d9;
   }
   .experience-logo { width: 64px; height: 64px; object-fit: contain; }
-  .experience-monogram {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #d2dfd6;
-    border-radius: 14px;
-    background: #e4ede7;
-    color: #4b6857;
-    font-size: 27px;
-    font-weight: 600;
+  .experience-logo--avolution {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #fff;
+    // Show the brand symbol from the full lockup at the same scale as Meshy.
+    img {
+      position: absolute;
+      width: 256%;
+      max-width: none;
+      height: auto;
+      left: -8.5%;
+      top: -71.5%;
+      clip-path: inset(0 59% 0 0);
+    }
   }
   .page__content .experience-company {
     margin: 0 0 2px;
@@ -162,7 +167,6 @@
     a:hover { text-decoration: underline; }
   }
   .page__content .experience-role { margin: 0; font-size: 15px; }
-  .experience-company-local { white-space: nowrap; }
   .page__content .experience-dates {
     margin: 0;
     color: #4b6857;

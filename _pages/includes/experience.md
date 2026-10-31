@@ -18,7 +18,7 @@
     <img src="{{ '/images/avolution-logo.png' | relative_url }}" alt="Avolution AI logo" width="512" height="512" loading="lazy">
   </span>
   <div class="experience-details">
-    <h3 class="experience-company">Avolution AI</h3>
+    <h3 class="experience-company">Avolution AI <span class="experience-status">Acquired by MiniMax</span></h3>
     <p class="experience-role">Video Gen Algorithm Intern</p>
   </div>
   <p class="experience-dates"><time datetime="2024-03">Mar 2024</time> – <time datetime="2024-10">Oct 2024</time></p>

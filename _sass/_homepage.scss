@@ -160,11 +160,26 @@
     }
   }
   .page__content .experience-company {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 10px;
     margin: 0 0 2px;
     font-family: inherit;
     font-size: 19px;
     a { color: var(--home-ink); text-decoration: none; }
     a:hover { text-decoration: underline; }
+  }
+  .experience-status {
+    padding: 2px 8px;
+    border: 1px solid #ceded2;
+    border-radius: 999px;
+    background: #e3ede6;
+    color: #526b5b;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
   }
   .page__content .experience-role { margin: 0; font-size: 15px; }
   .page__content .experience-dates {

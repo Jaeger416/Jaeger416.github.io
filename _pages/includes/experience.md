@@ -11,4 +11,13 @@
   </div>
   <p class="experience-dates"><time datetime="2026-06">Jun 2026</time> – Present</p>
 </div>
+
+<div class="experience-entry">
+  <span class="experience-logo experience-monogram" aria-hidden="true">鹿</span>
+  <div class="experience-details">
+    <h3 class="experience-company">Avolution <span class="experience-company-local">(鹿影科技)</span></h3>
+    <p class="experience-role">Video Gen Algorithm Intern</p>
+  </div>
+  <p class="experience-dates"><time datetime="2024-03">Mar 2024</time> – <time datetime="2024-10">Oct 2024</time></p>
+</div>
 </section>

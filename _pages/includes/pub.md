@@ -23,7 +23,7 @@
 Chongjie Ye, Cheng Cao, Chuanyu Pan, **Yiming Hao**, Yihao Zhi, Yuanming Hu, Xiaoguang Han.
 {: .publication-authors }
 
-[Paper](https://arxiv.org/abs/2604.02289)
+[Paper](https://arxiv.org/abs/2604.02289) [Project](https://omniweave123.github.io/Omni123/) [Dataset](https://huggingface.co/datasets/meshy-ai-team/3DEdit-1M) [Benchmark](https://huggingface.co/datasets/meshy-ai-team/Consis3D-Bench)
 {: .publication-links }
 
 </div>
